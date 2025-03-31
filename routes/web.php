@@ -55,5 +55,12 @@ use App\Http\Controllers\PostController;
  Route::get('/posts',[PostController::class, 'index'])-> name('posts.index');
  //Ruta personalizada para crear el registro en la BD de Posts.
  Route::post('/posts',[PostController::class, 'store'])-> name('posts.store');
+//Ruta personalizada para crear el registro 
+Route::get('/posts/{post}/edit', [App\Http\Controllers\PostController::class,'edit'])->name('posts.edit');
+//Ruta para update
+Route::patch('/posts/{post}', [App\Http\Controllers\PostController::class,'update'])->name('posts.update');
+//Ruta para eliminar
+Route::delete('/posts/{post}', [App\Http\Controllers\PostController::class,'destroy'])->name('posts.destroy');
+
 
 require __DIR__.'/auth.php';
