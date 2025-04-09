@@ -21,7 +21,7 @@ use App\Http\Controllers\PostController;
      return view('welcome');
    });
 
-   Route::view('welcome2', 'welcome') -> name('Welcome');//Llamar solo la vista
+   Route::view('welcome2', 'welcome') -> name('welcome');//Llamar solo la vista
 
    Route::get('/develop', function(){ 
     return 'Welcome to Developments';
