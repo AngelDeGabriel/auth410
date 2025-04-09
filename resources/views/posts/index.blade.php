@@ -11,7 +11,7 @@
             <!-- Card de bienvenida -->
             <div class="mb-6 p-6 bg-gradient-to-r from-indigo-800 to-teal-600 text-white rounded-lg shadow-lg">
                 <h2 class="text-2xl font-bold text-center"> Bienvenido a BISON </h2>
-                <p class="text-center mt-2">Comparte tus pensamientos con la comunidad.</p>
+                <p class="text-center mt-2">Comparte tus pensamientos con la comunidad</p>
             </div>
 
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
